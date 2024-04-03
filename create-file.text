@@ -1,3 +1,11 @@
+mkdir ex0
+cd ex0
+echo //... > ex0.cpp
+echo //... > ex0-prac.cpp 
+echo //... > ex0-prac-text.cpp 
+echo //... > ex0-prac-prac.cpp
+cd ..
+
 mkdir ex1
 cd ex1
 echo //... > ex1.cpp
