@@ -6,21 +6,17 @@
 
 // Brings elements of the std namespace into scope, avoiding repetitive std:: prefixes for standard library elements.
 
-
-
 // Defines a structure called Node representing a node in the linked list:
   //data: An integer to store the node's data value.
   //next: A pointer to the next node in the list, initially set to nullptr (null) for a new node.
 
-//13-18 (createNode Function):
-//Creates a new node with the given value:
+//(createNode Function):Creates a new node with the given value:
   //Allocates memory for a new Node using new.
   //Sets the data field of the new node to the provided value.
   //Sets the next pointer of the new node to nullptr (initially the last node).
   //Returns a pointer to the newly created node.
 
-
-// 20-32 (insertSorted Function): //Inserts a new node (newNode) into a linked list (head) in a sorted manner:
+// (insertSorted Function): Inserts a new node (newNode) into a linked list (head) in a sorted manner:
   //Initializes a current pointer to iterate through the list.
   
   //Handles insertion at the beginning:
@@ -34,7 +30,7 @@
     //Updates the next pointer of the current node to point to the new node (current->next = newNode).
 
 
-// 34-41 (printList Function): Prints the data values of all nodes in the linked list (head):
+//(printList Function): Prints the data values of all nodes in the linked list (head):
   // Uses a while loop to iterate through the list.
   // Prints the data value of the current node (cout << head->data << " ").
   // Advances the head pointer to the next node in each iteration.
