@@ -26,6 +26,7 @@
   
   //Handles insertion elsewhere:
     //Traverses the list using a while loop until it finds the appropriate position for insertion (current->next != nullptr && current->next->data <= newNode->data).
+        //set the current = current->next;
       //Links the new node's next pointer to the node after the current one (current->next = newNode->next).
       //Updates the next pointer of the current node to point to the new node (current->next = newNode).
 
