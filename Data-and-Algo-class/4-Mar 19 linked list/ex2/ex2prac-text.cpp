@@ -26,14 +26,14 @@
   
   //Handles insertion elsewhere:
     //Traverses the list using a while loop until it finds the appropriate position for insertion (current->next != nullptr && current->next->data <= newNode->data).
-    //Links the new node's next pointer to the node after the current one (current->next = newNode->next).
-    //Updates the next pointer of the current node to point to the new node (current->next = newNode).
+      //Links the new node's next pointer to the node after the current one (current->next = newNode->next).
+      //Updates the next pointer of the current node to point to the new node (current->next = newNode).
 
 
 //(printList Function): Prints the data values of all nodes in the linked list (head):
   // Uses a while loop to iterate through the list.
-  // Prints the data value of the current node (cout << head->data << " ").
-  // Advances the head pointer to the next node in each iteration.
+    // Prints the data value of the current node (cout << head->data << " ").
+    // Advances the head pointer to the next node in each iteration.
   // Prints a newline character (endl) at the end.
 
 // int main ()
