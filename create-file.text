@@ -3,7 +3,6 @@ cd ex0
 echo //... > ex0.cpp
 echo //... > ex0-prac.cpp 
 echo //... > ex0-prac-text.cpp 
-echo //... > ex0-prac-prac.cpp
 cd ..
 
 mkdir ex1
@@ -11,7 +10,6 @@ cd ex1
 echo //... > ex1.cpp
 echo //... > ex1-prac.cpp 
 echo //... > ex1-prac-text.cpp 
-echo //... > ex1-prac-prac.cpp
 cd ..
 
 mkdir ex2
@@ -19,7 +17,6 @@ cd ex2
 echo //... > ex2.cpp
 echo //... > ex2-prac.cpp 
 echo //... > ex2-prac-text.cpp 
-echo //... > ex2-prac-prac.cpp
 cd ..
 
 mkdir ex3
@@ -27,7 +24,6 @@ cd ex3
 echo //... > ex3.cpp
 echo //... > ex3-prac.cpp 
 echo //... > ex3-prac-text.cpp 
-echo //... > ex3-prac-prac.cpp
 cd ..
 
 mkdir ex4
@@ -35,7 +31,6 @@ cd ex4
 echo //... > ex4.cpp
 echo //... > ex4-prac.cpp 
 echo //... > ex4-prac-text.cpp 
-echo //... > ex4-prac-prac.cpp
 cd ..
 
 mkdir ex5
@@ -43,7 +38,6 @@ cd ex5
 echo //... > ex5.cpp
 echo //... > ex5-prac.cpp 
 echo //... > ex5-prac-text.cpp 
-echo //... > ex5-prac-prac.cpp
 cd ..
 
 mkdir ex6
@@ -51,7 +45,6 @@ cd ex6
 echo //... > ex6.cpp
 echo //... > ex6-prac.cpp 
 echo //... > ex6-prac-text.cpp 
-echo //... > ex6-prac-prac.cpp
 cd ..
 
 mkdir ex6
@@ -59,7 +52,6 @@ cd ex6
 echo //... > ex6.cpp
 echo //... > ex6-prac.cpp 
 echo //... > ex6-prac-text.cpp 
-echo //... > ex6-prac-prac.cpp
 cd ..
 
 mkdir ex6
@@ -67,7 +59,6 @@ cd ex6
 echo //... > ex6.cpp
 echo //... > ex6-prac.cpp 
 echo //... > ex6-prac-text.cpp 
-echo //... > ex6-prac-prac.cpp
 cd ..
 
 mkdir ex7
@@ -75,7 +66,6 @@ cd ex7
 echo //... > ex7.cpp
 echo //... > ex7-prac.cpp 
 echo //... > ex7-prac-text.cpp 
-echo //... > ex7-prac-prac.cpp
 cd ..
 
 mkdir ex8
@@ -83,7 +73,6 @@ cd ex8
 echo //... > ex8.cpp
 echo //... > ex8-prac.cpp 
 echo //... > ex8-prac-text.cpp 
-echo //... > ex8-prac-prac.cpp
 cd ..
 
 mkdir ex9
@@ -91,7 +80,6 @@ cd ex9
 echo //... > ex9.cpp
 echo //... > ex9-prac.cpp 
 echo //... > ex9-prac-text.cpp 
-echo //... > ex9-prac-prac.cpp
 cd ..
 
 mkdir ex10
@@ -99,7 +87,6 @@ cd ex10
 echo //... > ex10.cpp
 echo //... > ex10-prac.cpp 
 echo //... > ex10-prac-text.cpp 
-echo //... > ex10-prac-prac.cpp
 cd ..
 
 mkdir ex11
@@ -107,7 +94,6 @@ cd ex11
 echo //... > ex11.cpp
 echo //... > ex11-prac.cpp 
 echo //... > ex11-prac-text.cpp 
-echo //... > ex11-prac-prac.cpp
 cd ..
 
 mkdir ex12
@@ -115,7 +101,6 @@ cd ex12
 echo //... > ex12.cpp
 echo //... > ex12-prac.cpp 
 echo //... > ex12-prac-text.cpp 
-echo //... > ex12-prac-prac.cpp
 cd ..
 
 mkdir ex13
@@ -123,7 +108,6 @@ cd ex13
 echo //... > ex13.cpp
 echo //... > ex13-prac.cpp 
 echo //... > ex13-prac-text.cpp 
-echo //... > ex13-prac-prac.cpp
 cd ..
 
 mkdir ex14
@@ -131,7 +115,6 @@ cd ex14
 echo //... > ex14.cpp
 echo //... > ex14-prac.cpp 
 echo //... > ex14-prac-text.cpp 
-echo //... > ex14-prac-prac.cpp
 cd ..
 
 mkdir ex15
@@ -139,5 +122,4 @@ cd ex15
 echo //... > ex15.cpp
 echo //... > ex15-prac.cpp 
 echo //... > ex15-prac-text.cpp 
-echo //... > ex15-prac-prac.cpp
 cd ..
