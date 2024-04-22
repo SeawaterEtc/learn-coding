@@ -17,7 +17,7 @@ int main() {
   }
 
   // Regular expression to match timestamps
-  regex timestamp_regex(R"(\d{2}:\d{2})"); // Matches ": followed by two digits"
+  regex timestamp_regex(R"(\d{2}:\d{2})"); // Matches "followed by two digits : followed by two digits"
 
   string line;
   while (getline(infile, line)) {
