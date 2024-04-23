@@ -22,10 +22,10 @@ void insertFront(Node** head, int data) {
 void printList(Node* head) {
     Node* current = head;
     while (current != nullptr) {
-        std::cout << current->data << " ";
+        cout << current->data << " ";
         current = current->next;
     }
-    std::cout << std::endl;
+    cout << endl;
 }
 
 int main() {
