@@ -1,4 +1,5 @@
 #include <iostream>
+#include <iomanip> // For setw
 using namespace std;
 
 class Node {
@@ -26,33 +27,23 @@ void createTree(Node* &root, int value) {
     }
 }
 
-void preorderTraversal(Node* root) {
+void printTree(Node* root, int space = 0, int gap = 5) {
     if (root == NULL) {
         return;
     }
-    cout << root->data << " ";
-    preorderTraversal(root->left);
-    preorderTraversal(root->right);
-}
+    space += gap;
+    printTree(root->right, space);
 
-void inorderTraversal(Node* root) {
-    if (root == NULL) {
-        return;
+    cout << endl;
+    for (int i = gap; i < space; ++i) {
+        cout << " ";
     }
-    inorderTraversal(root->left);
-    cout << root->data << " ";
-    inorderTraversal(root->right);
+    cout << setw(2) << root->data << "\n";
+
+    printTree(root->left, space);
 }
 
 
-void postorderTraversal(Node* root) {
-    if (root == NULL) {
-        return;
-    }
-    postorderTraversal(root->left);
-    postorderTraversal(root->right);
-    cout << root->data << " ";
-}
 
 int main() {
     Node* root = NULL;
@@ -66,17 +57,8 @@ int main() {
         createTree(root, value);
     }
 
-    cout << "Preorder traversal: ";
-    preorderTraversal(root);
-    cout << endl;
-
-    cout << "Inorder traversal: ";
-    inorderTraversal(root);
-    cout << endl;
-
-    cout << "Postorder traversal: ";
-    postorderTraversal(root);
-    cout << endl;
+    cout << "Binary tree structure:" << endl;
+    printTree(root);
 
     return 0;
 }
