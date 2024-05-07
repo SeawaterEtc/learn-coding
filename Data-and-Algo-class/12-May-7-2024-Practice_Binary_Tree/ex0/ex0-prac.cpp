@@ -79,16 +79,24 @@ void postorderTraversal(Node* node) {
 
 int main() {
     Node* node = NULL;
-    int n;
-    cout << "Enter the number of nodes: ";
-    cin >> n;
+    int n = 30;
+    // cout << "Enter the number of nodes: ";
+    // cin >> n;
     // cout << "Enter the number of the nodes: ";
     for (int i = 0; i < n; ++i) {
         int data;
         // cin >> data;
         data = 1 + (rand() % 100) ;
         createTree(&node, data);
+        
+        cout << "Node devisible by 3 or 5: " << endl; 
+
+        if (data % 3 == 0 || data % 5 == 0) {
+            cout << data << " " ;
+        }
+        cout << endl; 
     }
+
 
     cout << "Binary tree structure: " << endl;
     printTree(&node);
