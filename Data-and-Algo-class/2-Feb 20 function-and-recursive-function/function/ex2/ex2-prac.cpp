@@ -19,31 +19,20 @@ int fibonacci(int n) {
     return b;
 }
 
-
-
 int main() {
     srand(time(0));
     
-    int lb = 1, ub = 5;
+    int lb = 1, ub = 10;
 
     int n = rand() % (ub - lb + 1) + lb;
 
     // cout << "Enter a positive integer: ";
     // cin >> n;
 
-    int a = 0, b = 1, c;
-    for (int i = 2; i <= n; ++i) {
-        c = a + b;
-        a = b;
-        b = c;
-    }
-
-
     if (n < 0) {
         cout << "Invalid input. Please enter a non-negative integer.\n";
     } else {
-        cout << "F(" << n << ") = " << b << "\n";
+        cout << "F(" << n << ") = " << fibonacci(n) << "\n";
     }
-
     return 0;
 }
