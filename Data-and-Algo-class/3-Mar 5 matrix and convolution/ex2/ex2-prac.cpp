@@ -1,3 +1,17 @@
+/*
+write cpp to
+1. Create a Matrix of 28 rows x 28 column
+2. Initialize the Matrix with random value of 0 or 1
+3. Write a function to calculate convolution on that matrix using the convolution kernel given below.
+Stride Length = 1
+Kernel
+1 0 1
+0 1 0
+1 0 1
+4. Write a function to calculate max pooling on that matrix returned by convolutional function in (3)
+Stride Length = 1
+Pooling dimension 3x3
+*/
 #include <iostream>
 #include <vector>
 #include <cstdlib>
@@ -29,7 +43,6 @@ vector<vector<int>> convolution(const vector<vector<int>>& matrix) {
             }
         }
     }
-
     return convMatrix;
 }
 // Function to perform max pooling on the matrix

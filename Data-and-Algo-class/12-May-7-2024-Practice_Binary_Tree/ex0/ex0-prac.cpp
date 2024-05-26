@@ -1,4 +1,10 @@
-//creating a Binary Tree, visualize the tree and do traversal
+// write cpp to create a Binary Tree, preorder traversal, inorder traversal, and postorder traversal
+// Add 
+// Function Display all leaves of the tree (meaning if node.left and node.right == NULL, display its data)
+// Function to calculate tree height
+// function to calculate sum value of each node and its childs
+// function to sum the value of sub tree
+
 
 #include <iostream>
 #include <iomanip> // For setw

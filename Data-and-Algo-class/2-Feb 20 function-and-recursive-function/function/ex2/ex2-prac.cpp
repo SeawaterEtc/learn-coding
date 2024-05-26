@@ -24,7 +24,8 @@ int main() {
     
     int lb = 1, ub = 10;
 
-    int n = rand() % (ub - lb + 1) + lb;
+    int n = 10;
+    // int n = rand() % (ub - lb + 1) + lb;
 
     // cout << "Enter a positive integer: ";
     // cin >> n;

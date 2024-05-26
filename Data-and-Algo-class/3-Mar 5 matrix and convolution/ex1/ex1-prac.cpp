@@ -10,10 +10,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime> 
-// <iostream>: Provides input/output functionalities (e.g., printing to the console).
-// <cstdlib>: Provides functions for random number generation (rand()) and integer conversions (std::swap).
-// <ctime>: Provides functions for time manipulation (time(nullptr)) used for seeding the random number generator.
-
 
 
 using namespace std;
@@ -31,6 +27,7 @@ void initializeMatrix(int matrix[MATRIX_SIZE][MATRIX_SIZE]) {
         }
     }
 }
+
 //8-13 (initializeMatrix Function):
     //Seeds the random number generator using srand(time(nullptr)).
     //Uses nested for loops to iterate through each row (i) and column (j) of the matrix.

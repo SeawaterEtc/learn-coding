@@ -19,7 +19,6 @@ void initializeMatrix(int matrix[MATRIX_SIZE][MATRIX_SIZE]) {
 }
 
 
-
 //Write a function to show values in diagonal of the matrix
 void diagonalValue(int matrix[MATRIX_SIZE][MATRIX_SIZE]) {
     cout << "Diagonal elements: ";
