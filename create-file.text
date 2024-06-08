@@ -134,3 +134,26 @@ echo //... > ex15-prac.cpp
 echo //... > ex15-prac-text.cpp 
 echo //... > ex15-prac-prac.cpp
 cd ..
+
+
+
+echo //... > ex1.py
+echo //... > ex2.py
+echo //... > ex3.py
+echo //... > ex4.py
+echo //... > ex5.py
+echo //... > ex6.py
+echo //... > ex7.py
+echo //... > ex8.py
+echo //... > ex9.py
+echo //... > ex10.py
+echo //... > ex11.py
+echo //... > ex12.py
+echo //... > ex13.py
+echo //... > ex14.py
+echo //... > ex15.py
+echo //... > ex16.py
+echo //... > ex17.py
+echo //... > ex18.py
+echo //... > ex19.py
+echo //... > ex20.py
